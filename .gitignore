@@ -2,3 +2,4 @@
 ./sshcmd
 local/
 pastables
+digitalocean/run.sh
