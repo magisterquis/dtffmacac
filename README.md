@@ -3,7 +3,7 @@ Demystifying the First Few Minutes after Compromising a Container
 Material for a [talk](https://docs.google.com/presentation/d/1EVCWDs67aY7Q5gLDgKzot1HtbCtO8vRD99zRLLBE4rE).
 
 Put the contents of this Archive on a Debian 12 box, grab bmake, cd in, and run
-`bmake`.
+`bmake`.  Tests at the end should pass.
 
 Probably best to use a separate box as it kinda takes over :/
 
@@ -26,3 +26,6 @@ Password: `s3cr3t_p4ssw0rd`
 Flags
 -----
 There are three flags in the environment, all with filenames ending in `.flag`.
+
+Start with just the [initial access](#Initial-Access).  Works out better to
+delete the source repo.
