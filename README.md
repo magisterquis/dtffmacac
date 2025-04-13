@@ -1,6 +1,8 @@
 Demystifying the First Few Minutes after Compromising a Container
 =================================================================
-Material for a [talk](https://docs.google.com/presentation/d/1EVCWDs67aY7Q5gLDgKzot1HtbCtO8vRD99zRLLBE4rE).
+Material for the talks with the same name at...
+- [BSides Dublin 2025](https://docs.google.com/presentation/d/1ufszdVrgwaCgVlbSKdpz_pEsLizeaWOdeE0Rgh7HpMw)
+- [BSides Munich 2024](https://docs.google.com/presentation/d/1EVCWDs67aY7Q5gLDgKzot1HtbCtO8vRD99zRLLBE4rE)
 
 Put the contents of this Archive on a Debian 12 box, grab bmake, cd in, and run
 `bmake`.  Tests at the end should pass.
