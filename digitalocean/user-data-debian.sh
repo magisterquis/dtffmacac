@@ -3,7 +3,7 @@
 # Cloud-init user-data for Debian
 # By J. Stuart McMurray
 # Created 20241007
-# Last Modified 20241012
+# Last Modified 20250407
 
 set -e
 
@@ -21,6 +21,7 @@ swapon /swapfile
 echo '/swapfile none swap sw 0 0' >>/etc/fstab
 
 # Update ALL the things
+export DEBIAN_FRONTEND=noninteractive
 for i in update upgrade autoremove; do
         apt-get -y -qq "$i"
 done
